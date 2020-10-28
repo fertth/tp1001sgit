@@ -10,6 +10,7 @@ def emptySquare():
 
     
 def filledSquare():
+<<<<<<< HEAD
     s = int(input("Enter the length of the side of the square: ")) 
     col = input("Enter the color name or hex value of color(# RRGGBB): ")
     t = turtle.Turtle()
@@ -21,6 +22,9 @@ def filledSquare():
     # Rotate clockwise by 90 degrees
     t.end_fill()
 
+=======
+  pass  # TODO
+>>>>>>> b16f6313d33d97fe00334d60d554661e0576a562
 
 
 def emptyCircle():
@@ -47,4 +51,9 @@ while True:
     elif (answer == '3'):
         emptyCircle()
     elif (answer == '4'):
+<<<<<<< HEAD
         filledCircle()
+=======
+        filledCircle()
+ 
+>>>>>>> b16f6313d33d97fe00334d60d554661e0576a562
